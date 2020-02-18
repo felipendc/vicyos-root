@@ -3,9 +3,11 @@
 ! ------------------------------------------------------------------------------
 ! https://critical.ch/xterm/
 ! ------------------------------------------------------------------------------
+! Use the command below to refresh the .Xresources settings:
+! xrdb ~/.Xresources
 
 xterm*font: 7x13
-xterm*faceName: Monospace:size=12:antialias=false
+xterm*faceName: Inconsolata:size=12:antialias=false
 xterm*loginShell: true
 xterm*vt100*geometry: 90x34
 xterm*saveLines: 2000
@@ -98,11 +100,11 @@ URxvt*color15: #ffffff
 
 ! fonts
 URxvt*letterSpace: 	 			0
-URxvt*font:                 	xft:Bitstream Vera Sans Mono:style=Roman:size=11
-URxvt*imFont:               	xft:Bitstream Vera Sans Mono:style=Roman:size=11
-URxvt*boldFont:             	xft:Bitstream Vera Sans Mono:Bold:size=11
-URxvt*italicFont:           	xft:Bitstream Vera Sans Mono:italic:size=11
-URxvt*boldItalicFont:    		xft:Bitstream Vera Sans Mono:Roman:size=11
+URxvt*font:                 	xft:Inconsolata:style=Inconsolata:size=11
+URxvt*imFont:               	xft:Inconsolata:style=Inconsolata:size=11
+URxvt*boldFont:             	xft:Inconsolata:Bold:size=11
+URxvt*italicFont:           	xft:Inconsolata:italic:size=11
+URxvt*boldItalicFont:    		xft:Inconsolata:Inconsolata:size=11
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions
@@ -121,7 +123,7 @@ URxvt*keysym.M-s:       perl:keyboard-select:search
 URxvt*keysym.M-u:       perl:url-select:select_next
 URxvt*resize-font.smaller:	C-Down
 URxvt*resize-font.bigger:	C-Up
-URxvt*geometry: 		77x23
+URxvt*geometry: 		95x24
 
 !! Change font size on Control-Plus/Minus
 !URxvt.keysym.C-plus:     perl:resize-font:bigger
@@ -169,7 +171,7 @@ UXTerm*termName: xterm-256color
 
 UXTerm*cursorColor:        white
 UXTerm*VT100.geometry:     90x30
-UXTerm*font:               Monospace
+UXTerm*font:               Inconsolata
 UXTerm*faceSize:		   12
 UXTerm*dynamicColors:      true
 UXTerm*utf8:               2
