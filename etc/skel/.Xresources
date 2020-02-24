@@ -221,4 +221,10 @@ twobwm.fixed_unkill_color: #38d1b2
 twobwm.inverted_colors: false
 twobwm.enable_compton: true
 
+! https://wiki.archlinux.org/index.php/Rxvt-unicode
+! rxvt-unicode-256color was removed from [community], use rxvt-unicode from [archlinuxfr] instead (seems newer than [extra])
+! urxvt supports search with M-s
+
+! The default TERM value rxvt-unicode-256color is not available under /usr/share/terminfo/r/ on older systems
+URxvt.termName: rxvt-256color
 
