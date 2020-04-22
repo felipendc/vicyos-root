@@ -100,11 +100,11 @@ URxvt*color15: #ffffff
 
 ! fonts
 URxvt*letterSpace: 	 			0
-URxvt*font:                 	xft:Inconsolata:style=Inconsolata:size=11
-URxvt*imFont:               	xft:Inconsolata:style=Inconsolata:size=11
-URxvt*boldFont:             	xft:Inconsolata:Bold:size=11
-URxvt*italicFont:           	xft:Inconsolata:italic:size=11
-URxvt*boldItalicFont:    		xft:Inconsolata:Inconsolata:size=11
+URxvt*font:                 	xft:Ubuntu Mono::style=Ubuntu Mono::size=12.3
+URxvt*imFont:               	xft:Ubuntu Mono::style=Ubuntu Mono::size=12.3
+URxvt*boldFont:             	xft:Ubuntu Mono::Bold:size=12.3
+URxvt*italicFont:           	xft:Ubuntu Mono::italic:size=12.3
+URxvt*boldItalicFont:    		xft:Ubuntu Mono::Ubuntu Mono::size=12.3
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions
