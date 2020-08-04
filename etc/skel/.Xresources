@@ -61,7 +61,7 @@ URxvt*shading:          30
 !URxvt*background:       [80]#404552
 !URxvt*background:       [70]#3F424A
 URxvt*background:        [80]#222E35
-URxvt*foreground:        #F8F8FF
+URxvt*foreground:        #c5c8c6
 URxvt*underlineColor:    #4682B4
 URxvt*highlightColor:    #4682B4
 URxvt*throughColor:      Blue
@@ -73,8 +73,8 @@ URxvt*scrollBar:         false
 URxvt*scrollTtyOutput:   false
 URxvt*scrollWithBuffer:  true
 URxvt*scrollTtyKeypress: true
-URxvt*internalBorder:    42
-URxvt*externalBorder:    18
+URxvt*internalBorder:    02
+URxvt*externalBorder:    0
 URxvt*colorIT:      	 #87af5f
 URxvt*colorBD:      	 #c5c8c6
 URxvt*colorUL:      	 #87afd7
@@ -123,7 +123,7 @@ URxvt*keysym.M-s:       perl:keyboard-select:search
 URxvt*keysym.M-u:       perl:url-select:select_next
 URxvt*resize-font.smaller:	C-Down
 URxvt*resize-font.bigger:	C-Up
-URxvt*geometry: 		95x24
+URxvt*geometry: 		88x24
 
 !! Change font size on Control-Plus/Minus
 !URxvt.keysym.C-plus:     perl:resize-font:bigger
